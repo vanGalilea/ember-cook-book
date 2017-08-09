@@ -12,6 +12,9 @@ module.exports = function(environment) {
       authDomain: 'ember-recipes-ea1d1.firebaseapp.com',
       databaseURL: 'https://ember-recipes-ea1d1.firebaseio.com'
     },
+    torii: {
+      sessionServiceName: 'session'
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
