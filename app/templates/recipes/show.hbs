@@ -9,7 +9,7 @@
   <h3>Instructions</h3>
   <dl class="dl-horizontal">
     {{#each model.instructions as |instruction index|}}
-      <dt>{{index}}</dt>
+      <dt>{{increment index}}</dt>
       <dd>{{instruction.description}}</dd>
     {{/each}}
   </dl>
