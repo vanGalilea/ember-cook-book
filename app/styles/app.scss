@@ -1,7 +1,10 @@
 @import "ember-bootstrap/bootstrap";
 
-recipe-image{
+.recipe-image{
   min-height: 300px;
   background-size: cover;
   background-position: center;
+  &.large{
+    min-height: 800px;
+  }
 }
