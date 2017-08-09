@@ -6,7 +6,7 @@
   <div
     {{action 'toggleImageSize'}}
     class="recipe-image {{if isLarge "large"}}"
-    style="background-image: url('{{recipe.image}}');" >
+    style={{background-image recipe.image}} >
   </div>
   <dl>
     <dt>source</dt>
