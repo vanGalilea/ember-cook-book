@@ -2,11 +2,16 @@
 'use strict';
 
 module.exports = function(environment) {
-  let ENV = {
+  var ENV = {
     modulePrefix: 'ember-cook-book',
     environment,
     rootURL: '/',
     locationType: 'auto',
+    firebase: {
+      apiKey: 'AIzaSyDWy5STEqy07noKeoIPk9TXvP7x6kSc8hE',
+      authDomain: 'ember-recipes-ea1d1.firebaseapp.com',
+      databaseURL: 'https://ember-recipes-ea1d1.firebaseio.com'
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -15,7 +20,7 @@ module.exports = function(environment) {
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
-      }
+      },
     },
 
     APP: {
